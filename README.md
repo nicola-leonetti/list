@@ -6,7 +6,7 @@ Il file `main.c` è usato come test e non fa parte della libreria.
 
 Per testare la libreria, compiliamo un programma di prova utilizzando clang.
 ```bash
-clang *.c -o prova
+clang *.c src/*.c -o prova
 ./prova
 ```
 
