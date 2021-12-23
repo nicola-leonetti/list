@@ -1,6 +1,6 @@
 #include "list.h"
 
-list emptylist(void)
+list emptyList(void)
 {
 	return NULL;
 }

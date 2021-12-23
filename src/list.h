@@ -15,19 +15,19 @@ typedef struct list_element {
 typedef item *list;
 
 // Inizializza una lista vuota
-list emptylist(void);
+list emptyList(void);
 
 // Ritorna 1 se la lista è vuota, 0 altrimenti
-int empty(list);
+int empty(list l);
 
 // Aggiunge un elemento IN TESTA alla lista
-list cons(element, list);
+list cons(element e, list l);
 
 // Ritorna il valore del primo elemento della lista
-element head(list);
+element head(list l);
 
 // Ritorna una lista che parte dal secondo elemento della lista data in input
-list tail(list);
+list tail(list l);
 
 // Stampa a schermo la lista passata come parametro, su più righe
 void printList(list l);
