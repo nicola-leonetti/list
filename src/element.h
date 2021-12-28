@@ -17,7 +17,7 @@ int trovaPosMax(element e[], int dim);
 
 void insOrd(element e[], int pos);
 
-void merge(int v[], int i1, int i2, int fine, int eout[]);
+void merge(element v[], int i1, int i2, int fine, element eout[]);
 
 void quickSortR(int e[], int iniz, int fine);
 

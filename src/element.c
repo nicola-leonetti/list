@@ -71,7 +71,7 @@ void insOrd(element e[], int pos)
 }
 
 // Fonde insieme due array di element
-void merge(element e[], int i1, int i2, int fine, int eout[])
+void merge(element e[], int i1, int i2, int fine, element eout[])
 {
     int i, j, k;
     i = i1; 
