@@ -30,7 +30,7 @@ element head(list l);
 list tail(list l);
 
 // Stampa a schermo la lista passata come parametro, su più righe
-void printList(list l);
+// void printList(list l);
 
 // Libera lo spazio in memoria utilizzato dalla lista l
 void freeList(list l);

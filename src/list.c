@@ -39,16 +39,16 @@ list tail(list l)
     }
 }
 
-void printList(list l) {
-	element temp;
-    printf("[INIZIO LISTA] \n");
-	while (!empty(l)) {
-		temp = head(l);
-        printElement(temp);
-        l = tail(l);
-	}
-    printf("[FINE LISTA] \n");
-}
+// void printList(list l) {
+// 	element temp;
+//     printf("[INIZIO LISTA] \n");
+// 	while (!empty(l)) {
+// 		temp = head(l);
+//         printElement(temp);
+//         l = tail(l);
+// 	}
+//     printf("[FINE LISTA] \n");
+// }
 
 void freeList(list l) {
 	if (!empty(l)) {
