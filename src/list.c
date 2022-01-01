@@ -57,17 +57,15 @@ void freeList(list l) {
 	}
 }
 
-/*
 int member(element el, list l) {
 	int result = 0;
 	while (!empty(l) && !result) {
-		result = (el.id == head(l).id);
+		result = !compare(el, head(l));
 		if (!result)
 			l = tail(l);
 	}
 	return result;
 }
-*/
 
 //
 //list insord_p(element el, list l) {
