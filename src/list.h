@@ -36,7 +36,7 @@ list tail(list l);
 void freeList(list l);
 
 // Ritorna 0 se l'elemento è presente nella lista, 1 altrimenti
-int member(element el, list l);
+// int member(element el, list l);
 
 //list insord_p(element el, list l);
 
