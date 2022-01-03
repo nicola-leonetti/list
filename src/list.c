@@ -70,6 +70,19 @@ void freeList(list l) {
 // 	return result;
 // }
 
+int countElements(list l)
+{
+	int count; 
+
+	count = 0;
+	while(!empty(l)) {
+		count++;
+		l = tail(l);
+	}
+
+	return count;
+}
+
 //
 //list insord_p(element el, list l) {
 //	list pprec = NULL, patt = l, paux;

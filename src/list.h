@@ -31,6 +31,9 @@ list tail(list l);
 // Libera lo spazio in memoria utilizzato dalla lista l
 void freeList(list l);
 
+// Conta gli elementi contenuti nella lista
+int countElements(list l);
+
 // Ritorna 0 se l'elemento è presente nella lista, 1 altrimenti
 // int member(element el, list l);
 
