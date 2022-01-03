@@ -104,9 +104,10 @@
 // }
 
 // // Funzione ricorsiva chiamata da 'quickSort', che funge da interfaccia
-// void quickSortR(int e[], int iniz, int fine)
+// void quickSortR(element e[], int iniz, int fine)
 // {
-//     int i, j, iPivot, pivot;
+//     int i, j, iPivot;
+//     element pivot;
 //     if (iniz < fine) {
 //         i = iniz;
 //         j = fine;

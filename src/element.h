@@ -19,7 +19,7 @@ typedef int element;
 
 // void merge(element v[], int i1, int i2, int fine, element eout[]);
 
-// void quickSortR(int e[], int iniz, int fine);
+// void quickSortR(element e[], int iniz, int fine);
 
 // void naiveSort(element e[], int dim);
 
