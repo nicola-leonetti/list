@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "element.h"
 
 // // 0 se sono uguali, -1 se il primo è minore, 1 se il primo è maggiore

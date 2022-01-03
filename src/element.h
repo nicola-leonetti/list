@@ -1,8 +1,6 @@
 #ifndef ELEMENT_H
 #define ELEMENT_H
 
-#include <stdio.h>
-
 typedef int element;
 
 // int compare(element e1, element e2);
