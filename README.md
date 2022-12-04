@@ -1,16 +1,17 @@
-# Libreria list.h
-Questa libreria implementa l'ADT lista in C. 
+# list.h
+My implementation of a linked list in C, as described in the book 
+"C: How to to Program" by Paul J. Deitel and Harvey M. Deitel.
 
-## Testare il corretto funzionamento della libreria 
-Il file `main.c` è usato come test e non fa parte della libreria.
+## Testing
+The `main.c` file is used for testing purposes and is not part of the
+library. To compile `main.c` with clang, run in the project's folder:
 
-Per testare la libreria, compiliamo un programma di prova utilizzando clang.
 ```bash
 clang *.c src/*.c -o prova
 ./prova
 ```
 
-Se tutto funziona correttamente, l'output dovrebbe essere il seguente:
+If everything works as expected, the output should be the following:
 ```
 1
 [INIZIO LISTA] 
@@ -25,10 +26,18 @@ Se tutto funziona correttamente, l'output dovrebbe essere il seguente:
 [FINE LISTA] 
 ```
 
-Infine, per eliminare l'eseguibile creato durante questo processo:
+If you wish, you can remove the `main.c` executable after the program
+has finished:
+
 ```bash
 rm prova
 ```
 
-## Utilizzo della libreria
-Per utilizzare la libreria, è sufficiente spostare tutti i files contenuti nella cartella `src` nella cartella del tuo progetto e utilizzare le funzioni come documentato nel file `list.h`.
+## Using the library
+In order to use the library, move all the files in the `src` folder in 
+your project's main directory.
+
+You may also want to change the code in `src/main.c` to adapt it to your
+custom data types.
+
+Please refer to the instructions in the `list.h` file for documentation.

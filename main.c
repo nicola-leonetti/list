@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "src/list.h"
 #define DIM 9
 

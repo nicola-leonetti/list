@@ -26,7 +26,7 @@ element head(list l);
 list tail(list l);
 
 // Stampa a schermo la lista passata come parametro, su più righe
-// void printList(list l);
+void printList(list l);
 
 // Libera lo spazio in memoria utilizzato dalla lista l
 void freeList(list l);
@@ -35,8 +35,8 @@ void freeList(list l);
 int countElements(list l);
 
 // Ritorna 0 se l'elemento è presente nella lista, 1 altrimenti
-// int member(element el, list l);
+int member(element el, list l);
 
-//list insord_p(element el, list l);
+list insord_p(element el, list l);
 
 #endif
